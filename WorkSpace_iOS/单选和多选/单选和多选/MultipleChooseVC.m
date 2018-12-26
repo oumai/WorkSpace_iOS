@@ -34,7 +34,7 @@
     _dataArray = [NSMutableArray arrayWithObjects:@"深圳",@"青岛",@"武汉",@"郑州",@"义乌",@"杭州",@"嘉兴",@"襄阳",@"松滋",@"咸宁", nil];
     
     
-
+    _isSlect = malloc(sizeof(BOOL)*_dataArray.count);
     [self.view addSubview:self.tableView];
 }
 

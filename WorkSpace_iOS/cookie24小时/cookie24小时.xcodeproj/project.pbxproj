@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50B934C21A63EFC0029C43E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B934B21A63EFC0029C43E /* AppDelegate.m */; };
+		B50B934F21A63EFC0029C43E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B934E21A63EFC0029C43E /* ViewController.m */; };
+		B50B935221A63EFC0029C43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50B935021A63EFC0029C43E /* Main.storyboard */; };
+		B50B935421A63EFE0029C43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50B935321A63EFE0029C43E /* Assets.xcassets */; };
+		B50B935721A63EFE0029C43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50B935521A63EFE0029C43E /* LaunchScreen.storyboard */; };
+		B50B935A21A63EFE0029C43E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B935921A63EFE0029C43E /* main.m */; };
+		B50B936421A63EFE0029C43E /* cookie24__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B936321A63EFE0029C43E /* cookie24__Tests.m */; };
+		B50B936F21A63EFE0029C43E /* cookie24__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B936E21A63EFE0029C43E /* cookie24__UITests.m */; };
+		B50B937E21A63F9E0029C43E /* CookieClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B937D21A63F9E0029C43E /* CookieClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50B936021A63EFE0029C43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50B933F21A63EFC0029C43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50B934621A63EFC0029C43E;
+			remoteInfo = "cookie24小时";
+		};
+		B50B936B21A63EFE0029C43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50B933F21A63EFC0029C43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50B934621A63EFC0029C43E;
+			remoteInfo = "cookie24小时";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50B934721A63EFC0029C43E /* cookie24小时.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cookie24小时.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50B934A21A63EFC0029C43E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B50B934B21A63EFC0029C43E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B50B934D21A63EFC0029C43E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B50B934E21A63EFC0029C43E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B50B935121A63EFC0029C43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B50B935321A63EFE0029C43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50B935621A63EFE0029C43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B50B935821A63EFE0029C43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50B935921A63EFE0029C43E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B50B935F21A63EFE0029C43E /* cookie24小时Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie24小时Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50B936321A63EFE0029C43E /* cookie24__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cookie24__Tests.m; sourceTree = "<group>"; };
+		B50B936521A63EFE0029C43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50B936A21A63EFE0029C43E /* cookie24小时UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie24小时UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50B936E21A63EFE0029C43E /* cookie24__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cookie24__UITests.m; sourceTree = "<group>"; };
+		B50B937021A63EFE0029C43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50B937C21A63F9E0029C43E /* CookieClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookieClass.h; sourceTree = "<group>"; };
+		B50B937D21A63F9E0029C43E /* CookieClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50B934421A63EFC0029C43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B935C21A63EFE0029C43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B936721A63EFE0029C43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50B933E21A63EFC0029C43E = {
+			isa = PBXGroup;
+			children = (
+				B50B934921A63EFC0029C43E /* cookie24小时 */,
+				B50B936221A63EFE0029C43E /* cookie24小时Tests */,
+				B50B936D21A63EFE0029C43E /* cookie24小时UITests */,
+				B50B934821A63EFC0029C43E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50B934821A63EFC0029C43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50B934721A63EFC0029C43E /* cookie24小时.app */,
+				B50B935F21A63EFE0029C43E /* cookie24小时Tests.xctest */,
+				B50B936A21A63EFE0029C43E /* cookie24小时UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50B934921A63EFC0029C43E /* cookie24小时 */ = {
+			isa = PBXGroup;
+			children = (
+				B50B934A21A63EFC0029C43E /* AppDelegate.h */,
+				B50B934B21A63EFC0029C43E /* AppDelegate.m */,
+				B50B934D21A63EFC0029C43E /* ViewController.h */,
+				B50B934E21A63EFC0029C43E /* ViewController.m */,
+				B50B937C21A63F9E0029C43E /* CookieClass.h */,
+				B50B937D21A63F9E0029C43E /* CookieClass.m */,
+				B50B935021A63EFC0029C43E /* Main.storyboard */,
+				B50B935321A63EFE0029C43E /* Assets.xcassets */,
+				B50B935521A63EFE0029C43E /* LaunchScreen.storyboard */,
+				B50B935821A63EFE0029C43E /* Info.plist */,
+				B50B935921A63EFE0029C43E /* main.m */,
+			);
+			path = "cookie24小时";
+			sourceTree = "<group>";
+		};
+		B50B936221A63EFE0029C43E /* cookie24小时Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B50B936321A63EFE0029C43E /* cookie24__Tests.m */,
+				B50B936521A63EFE0029C43E /* Info.plist */,
+			);
+			path = "cookie24小时Tests";
+			sourceTree = "<group>";
+		};
+		B50B936D21A63EFE0029C43E /* cookie24小时UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50B936E21A63EFE0029C43E /* cookie24__UITests.m */,
+				B50B937021A63EFE0029C43E /* Info.plist */,
+			);
+			path = "cookie24小时UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50B934621A63EFC0029C43E /* cookie24小时 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50B937321A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时" */;
+			buildPhases = (
+				B50B934321A63EFC0029C43E /* Sources */,
+				B50B934421A63EFC0029C43E /* Frameworks */,
+				B50B934521A63EFC0029C43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cookie24小时";
+			productName = "cookie24小时";
+			productReference = B50B934721A63EFC0029C43E /* cookie24小时.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50B935E21A63EFE0029C43E /* cookie24小时Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50B937621A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时Tests" */;
+			buildPhases = (
+				B50B935B21A63EFE0029C43E /* Sources */,
+				B50B935C21A63EFE0029C43E /* Frameworks */,
+				B50B935D21A63EFE0029C43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50B936121A63EFE0029C43E /* PBXTargetDependency */,
+			);
+			name = "cookie24小时Tests";
+			productName = "cookie24小时Tests";
+			productReference = B50B935F21A63EFE0029C43E /* cookie24小时Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50B936921A63EFE0029C43E /* cookie24小时UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50B937921A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时UITests" */;
+			buildPhases = (
+				B50B936621A63EFE0029C43E /* Sources */,
+				B50B936721A63EFE0029C43E /* Frameworks */,
+				B50B936821A63EFE0029C43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50B936C21A63EFE0029C43E /* PBXTargetDependency */,
+			);
+			name = "cookie24小时UITests";
+			productName = "cookie24小时UITests";
+			productReference = B50B936A21A63EFE0029C43E /* cookie24小时UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50B933F21A63EFC0029C43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kmom;
+				TargetAttributes = {
+					B50B934621A63EFC0029C43E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B50B935E21A63EFE0029C43E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B50B934621A63EFC0029C43E;
+					};
+					B50B936921A63EFE0029C43E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B50B934621A63EFC0029C43E;
+					};
+				};
+			};
+			buildConfigurationList = B50B934221A63EFC0029C43E /* Build configuration list for PBXProject "cookie24小时" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50B933E21A63EFC0029C43E;
+			productRefGroup = B50B934821A63EFC0029C43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50B934621A63EFC0029C43E /* cookie24小时 */,
+				B50B935E21A63EFE0029C43E /* cookie24小时Tests */,
+				B50B936921A63EFE0029C43E /* cookie24小时UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50B934521A63EFC0029C43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B935721A63EFE0029C43E /* LaunchScreen.storyboard in Resources */,
+				B50B935421A63EFE0029C43E /* Assets.xcassets in Resources */,
+				B50B935221A63EFC0029C43E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B935D21A63EFE0029C43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B936821A63EFE0029C43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50B934321A63EFC0029C43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B937E21A63F9E0029C43E /* CookieClass.m in Sources */,
+				B50B934F21A63EFC0029C43E /* ViewController.m in Sources */,
+				B50B935A21A63EFE0029C43E /* main.m in Sources */,
+				B50B934C21A63EFC0029C43E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B935B21A63EFE0029C43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B936421A63EFE0029C43E /* cookie24__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50B936621A63EFE0029C43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B936F21A63EFE0029C43E /* cookie24__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50B936121A63EFE0029C43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50B934621A63EFC0029C43E /* cookie24小时 */;
+			targetProxy = B50B936021A63EFE0029C43E /* PBXContainerItemProxy */;
+		};
+		B50B936C21A63EFE0029C43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50B934621A63EFC0029C43E /* cookie24小时 */;
+			targetProxy = B50B936B21A63EFE0029C43E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B50B935021A63EFC0029C43E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50B935121A63EFC0029C43E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B50B935521A63EFE0029C43E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50B935621A63EFE0029C43E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50B937121A63EFE0029C43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B50B937221A63EFE0029C43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50B937421A63EFE0029C43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
+				INFOPLIST_FILE = "cookie24小时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50B937521A63EFE0029C43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYBK7B7U6R;
+				INFOPLIST_FILE = "cookie24小时/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50B937721A63EFE0029C43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cookie24小时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie24小时.app/cookie24小时";
+			};
+			name = Debug;
+		};
+		B50B937821A63EFE0029C43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cookie24小时Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie24小时.app/cookie24小时";
+			};
+			name = Release;
+		};
+		B50B937A21A63EFE0029C43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cookie24小时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cookie24小时";
+			};
+			name = Debug;
+		};
+		B50B937B21A63EFE0029C43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cookie24小时UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KMJKY.cookie24--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cookie24小时";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50B934221A63EFC0029C43E /* Build configuration list for PBXProject "cookie24小时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B937121A63EFE0029C43E /* Debug */,
+				B50B937221A63EFE0029C43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50B937321A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B937421A63EFE0029C43E /* Debug */,
+				B50B937521A63EFE0029C43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50B937621A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B937721A63EFE0029C43E /* Debug */,
+				B50B937821A63EFE0029C43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50B937921A63EFE0029C43E /* Build configuration list for PBXNativeTarget "cookie24小时UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B937A21A63EFE0029C43E /* Debug */,
+				B50B937B21A63EFE0029C43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50B933F21A63EFC0029C43E /* Project object */;
+}
